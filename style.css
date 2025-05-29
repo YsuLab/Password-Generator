@@ -1,0 +1,114 @@
+body {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#title{
+    margin-top: 0px;
+    text-shadow: #459ea0 3px 2px 0.5px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#container {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 70%;
+    max-width: 500px;
+}
+
+#passwordLength{
+    display: inline;
+    margin-right: auto;
+    box-shadow: #459ea0 4px 4px 0px ;
+    border: black solid 1px;
+}
+
+label{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.boxes{
+    display: block;
+    text-align: justify;
+
+}
+
+
+button {
+    margin-top: 2rem;
+    font-size: 20px;
+    background-color: #459ea0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d6a6a;
+}
+
+#result {
+    margin-top: 1rem;
+    word-break: break-all;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+/*
+
+            <div class="card">
+
+            <label for="passwordLength">Password Length: </label> <br>
+            <input type="textBox" id="passwordLength"> <br><br>
+
+            <div class="content">
+                <label class="checkBox">
+                    <input type="checkbox" id="includeLowercase">
+                    <div class="transition"></div>
+                </label>
+            </div>
+            <label for="includeLowercase" id="label1">helo</label>
+
+            <div class="content">
+                <label class="checkBox">
+                    <input type="checkbox" id="includeUppercase">
+                    <div class="transition"></div>
+                </label>
+            </div>
+            <label for="includeUppercase" id="label2">helo</label>
+
+            <div class="content">
+            <label class="checkBox">
+                <input type="checkbox" id="includeNumbers">
+                <div class="transition"></div>
+            </label>
+            </div>
+            <label for="includeNumbers" id="label3">helo</label>
+
+            <div class="content">
+            <label class="checkBox">
+                <input type="checkbox" id="includeSymbols">
+                <div class="transition"></div>
+            </label>
+            </div>
+            <label for="includeSymbols" id="label4">helo</label>
+
+ */
